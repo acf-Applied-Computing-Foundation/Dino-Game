@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dino Game</title>
+    <!-- Link the stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/trex.png" />
+  </head>
+  <body>
+    <!-- Game Div -->
+    <h1>Dino Game</h1>
+    <p>
+      Press any button on your keyboard to jump, and use the "Play" and "Stop"
+      buttons to start or stop the game.
+    </p>
+    <div class="game">
+      <!-- Insert Dinosaur -->
+      <div id="dino"></div>
+      <!-- Insert Cactus -->
+      <div id="cactus"></div>
+    </div>
+    <!-- Controls Div -->
+    <div class="controls">
+      <!-- Play Button -->
+      <button onclick="startgame()">Play</button>
+      <!-- Stop Button -->
+      <button onclick="stopgame()">Stop</button>
+    </div>
+    <!-- Link the script -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
